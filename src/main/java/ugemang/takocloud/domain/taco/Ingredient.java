@@ -1,4 +1,4 @@
-package ugemang.takocloud.domain;
+package ugemang.takocloud.domain.taco;
 
 import lombok.AccessLevel;
 import lombok.Data;

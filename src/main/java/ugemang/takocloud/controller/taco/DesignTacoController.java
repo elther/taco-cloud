@@ -1,4 +1,4 @@
-package ugemang.takocloud.controller;
+package ugemang.takocloud.controller.taco;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,12 +6,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
-import ugemang.takocloud.domain.Ingredient;
-import ugemang.takocloud.domain.Ingredient.Type;
-import ugemang.takocloud.domain.Order;
-import ugemang.takocloud.domain.Taco;
-import ugemang.takocloud.repository.IngredientRepository;
-import ugemang.takocloud.repository.TacoRepository;
+import ugemang.takocloud.domain.taco.Ingredient;
+import ugemang.takocloud.domain.taco.Ingredient.Type;
+import ugemang.takocloud.domain.order.Order;
+import ugemang.takocloud.domain.taco.Taco;
+import ugemang.takocloud.repository.taco.IngredientRepository;
+import ugemang.takocloud.repository.taco.TacoRepository;
 
 import javax.validation.Valid;
 import java.util.ArrayList;

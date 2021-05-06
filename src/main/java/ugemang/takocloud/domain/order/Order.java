@@ -1,7 +1,8 @@
-package ugemang.takocloud.domain;
+package ugemang.takocloud.domain.order;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.CreditCardNumber;
+import ugemang.takocloud.domain.taco.Taco;
 
 import javax.persistence.*;
 import javax.validation.constraints.Digits;

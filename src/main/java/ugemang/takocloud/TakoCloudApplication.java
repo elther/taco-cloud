@@ -4,8 +4,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import ugemang.takocloud.domain.Ingredient;
-import ugemang.takocloud.repository.IngredientRepository;
+import ugemang.takocloud.domain.taco.Ingredient;
+import ugemang.takocloud.repository.taco.IngredientRepository;
 
 @SpringBootApplication
 public class TakoCloudApplication {

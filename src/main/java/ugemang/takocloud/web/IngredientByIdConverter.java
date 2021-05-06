@@ -3,8 +3,8 @@ package ugemang.takocloud.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
-import ugemang.takocloud.domain.Ingredient;
-import ugemang.takocloud.repository.IngredientRepository;
+import ugemang.takocloud.domain.taco.Ingredient;
+import ugemang.takocloud.repository.taco.IngredientRepository;
 
 import java.util.Optional;
 
