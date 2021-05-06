@@ -28,6 +28,7 @@ dependencies {
     implementation 'javax.validation:validation-api:2.0.1.Final'
     implementation 'org.hibernate.validator:hibernate-validator:6.0.8.Final'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc:2.4.5'
+    implementation 'org.springframework.boot:spring-boot-stater-data-jpa'
     runtimeOnly 'com.h2database:h2:1.4.195'
 }
 
